@@ -26,6 +26,8 @@
 	.footer {
 		max-width: 186px;
 		min-height: 310px;
+		padding-bottom: 0px;
+		padding-right: 0px;
 		margin: 0px;
 		flex-direction: column;
 		padding-left: 16px;
