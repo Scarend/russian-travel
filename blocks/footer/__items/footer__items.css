@@ -1,6 +1,7 @@
 .footer__items {
-	max-height: 18px;
 	display: flex;
+	min-height: 18px;
+	flex-direction: row;
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
@@ -8,12 +9,12 @@
 
 @media screen and (max-width: 768px) {
 	.footer__items {
+		width: 100%;
 		max-width: 720px;
-		/* flex-direction: column; */
 	}
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 670px) {
 	.footer__items {
 		max-width: 186px;
 		flex-direction: column;
