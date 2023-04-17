@@ -8,27 +8,31 @@
 	font-weight: 900;
 	line-height: 100px;
 }
+
 @media screen and (max-width: 1024px) {
-    .lead__title {
-    		margin-top: 48px;
-    	}
+	.lead__title {
+		margin-top: 48px;
+	}
 }
-@media screen and (max-width: 768px) {
-    .lead__title {
-    		font-size: 56px;
-    		max-width: 500px;
-    		line-height: 60px;
-    	}
+
+@media screen and (max-width: 800px) {
+	.lead__title {
+		font-size: 56px;
+		max-width: 500px;
+		line-height: 60px;
+	}
 }
+
 @media screen and (max-width: 475px) {
-    .lead__title {
-    		font-size: 36px;
-    		max-width: 400px;
-    		line-height: 40px;
-    	}
+	.lead__title {
+		font-size: 36px;
+		max-width: 400px;
+		line-height: 40px;
+	}
 }
+
 @media screen and (max-width: 320px) {
-    .lead__title {
-    		margin-bottom: 17px;
-    	}
+	.lead__title {
+		margin-bottom: 17px;
+	}
 }
