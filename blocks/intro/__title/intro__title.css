@@ -1,40 +1,13 @@
 .intro__title {
-	margin: 0px 0px 40px 0px;
+	max-width: 690px;
 	font-size: 54px;
 	font-weight: 900;
 	line-height: 58px;
+	margin: 0px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 500px) {
     .intro__title {
-    		max-width: 720px;
-    		font-size: 48px;
-    		line-height: 52px;
-    	}
-}
-@media screen and (max-width: 768px) {
-    .intro__title {
-    		max-width: 690px;
-    	}
-}
-@media screen and (max-width: 425px) {
-    .intro__title {
-    		max-width: 288px;
     		font-size: 32px;
     		line-height: 35px;
-    	}
-}
-@media screen and (max-width: 1024px) {
-    .intro__title {
-    		max-width: 720px;
-    	}
-}
-@media screen and (max-width: 768px) {
-    .intro__title {
-    		max-width: 690px;
-    	}
-}
-@media screen and (max-width: 425px) {
-    .intro__title {
-    		max-width: 288px;
     	}
 }
