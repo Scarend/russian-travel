@@ -3,13 +3,3 @@
 	margin: 0px auto;
 	max-width: 1184px;
 }
-@media screen and (max-width: 768px) {
-    .cover {
-    		padding: 90px 0px 88px;
-    	}
-}
-@media screen and (max-width: 320px) {
-    .cover {
-    		padding: 66px 0px px;
-    	}
-}
